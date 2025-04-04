@@ -1,0 +1,37 @@
+ <script>
+        // Vérifie si la page est chargée dans un iframe
+        if (window.top === window.self) {
+            // Si la page n'est pas chargée dans un iframe, redirige vers une autre page
+            window.location.href = 'https://www.awex.be/';
+        }
+    </script>
+    
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS Viewer</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="scroll-container">
+        <div class="safeonweb-container" style="position: absolute; top: 0px; bottom: 0px; background: rgb(197, 34, 30); padding-left: 30px; padding-right: 45px; display: flex; align-items: center; z-index: 1; left: 0px; clip-path: polygon(0px 0px, 100% 0%, 86% 100%, 0% 100%);"><span style="font-weight: 700; font-family: Arial; font-size: 14px; line-height: initial; color: rgb(255, 255, 255);">Safeonweb</span></div>
+
+        <ul id="scroll-list">
+            <!-- Les éléments li seront ajoutés ici -->
+             
+        </ul>
+    </div>
+    
+    
+</body>
+</html>
